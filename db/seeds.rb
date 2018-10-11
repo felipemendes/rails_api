@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+event = Event.create(
+    [
+        {
+            title: "My event title",
+            body: "Event awesome description!"
+        },
+        {
+            title: "Just another event",
+            body: "This event is pretty cool too. Check it!"
+        }
+    ]
+)

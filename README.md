@@ -31,6 +31,28 @@ Start the server with `rails s -p 3001`
 
 And the application will start at `http://localhost:3001`
 
+## Endpoint
+
+#### GET `http://localhost:3001/api/v1/events`
+
+#### POST `http://localhost:3001/api/v1/events`
+
+#### PUT `http://localhost:3001/api/v1/events/{id}`
+
+#### DELETE `http://localhost:3001/api/v1/events/{id}`
+
+### Event data object example
+
+```json
+{ 
+    event:
+    {
+        "title": '',
+        "body": ''
+    }
+}
+```
+
 ## License
 This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
 

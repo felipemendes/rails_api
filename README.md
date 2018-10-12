@@ -6,10 +6,10 @@ App build in Rails that provides an RESTful API. It covers endpoints to add, edi
 
 This project package the following functions:
 - [x] Events
-- [] Categories
-- [] Sale Places
-- [] User
-- [] Login
+- [ ] Categories
+- [ ] Sale Places
+- [ ] User
+- [ ] Login
 
 ## Installation
 Get via git clone:

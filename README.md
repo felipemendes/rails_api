@@ -25,7 +25,17 @@ $ bundle install
 
 ## Usage
 
-Start the server with `rails s -p 3001`
+Run the migration. This command will execute the migration that is stored in the `db/migrate/` directory and have not yet been executed in the database
+```
+$ rake db:migrate
+```
+
+Content from file `db/seeds.rb` will add some sample records. So run it to insert those values
+```
+$ rake db:seed
+```
+
+Then start the server with `rails s -p 3001`
 
 ![server](/screenshots/server.png "server")
 
@@ -45,10 +55,10 @@ And the application will start at `http://localhost:3001`
 
 ```json
 { 
-    event:
+    "event":
     {
-        "title": '',
-        "body": ''
+        "title": "",
+        "body": ""
     }
 }
 ```

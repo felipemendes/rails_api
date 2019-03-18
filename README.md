@@ -15,7 +15,7 @@ This project package the following functions:
 Get via git clone:
 ```
 $ git clone https://github.com/purai/rails_api.git
-$ cd purai-rails-api
+$ cd rails_api
 ```
 
 Get dependencies:

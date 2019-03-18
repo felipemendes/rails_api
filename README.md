@@ -14,7 +14,7 @@ This project package the following functions:
 ## Installation
 Get via git clone:
 ```
-$ git clone https://github.com/felipemendes/purai-rails-api.git
+$ git clone https://github.com/purai/rails_api.git
 $ cd purai-rails-api
 ```
 
